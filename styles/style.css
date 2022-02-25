@@ -20,10 +20,15 @@ header {
    
 }
 
+ul{
+   padding:0;
+}
+
 .header_list li{
    list-style: none;
    display: inline;
    margin: 10px;
+   
 }
 
 /* Logo y Menu de botones */
@@ -31,6 +36,7 @@ header {
 .secmain{
    display: flex;
    justify-content: space-between;
+   flex-wrap: wrap;
 }
 
 .main_logo{
@@ -51,4 +57,21 @@ header {
    border-radius: 10px;
    background-color: rgba(36, 88, 5, 0.205);
    border: none;
+   color: white;
 }
+
+/* Imagen */
+
+/* .mujer{
+   margin-bottom: 0;
+} */
+
+.miweb{
+   background-color: lightsalmon;
+   color: white;
+   height: 200px;
+   margin-top: 0;  
+}
+
+
+   
