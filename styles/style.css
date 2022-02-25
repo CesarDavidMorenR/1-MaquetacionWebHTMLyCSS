@@ -66,12 +66,17 @@ ul{
    margin-bottom: 0;
 } */
 
+.chica_figure{
+   background-color: lightsalmon;
+}
+
 .miweb{
    background-color: lightsalmon;
    color: white;
    height: 200px;
-   margin-top: 0;  
+     
 }
+
 
 
    
