@@ -34,5 +34,21 @@ header {
 }
 
 .main_logo{
-   /* padding: 25px 0px 0px 25px; */
+   padding: 25px ;
+}
+
+/* .buttoms{
+   /* display: flex; */
+   /* padding: 10px; 
+}*/
+   
+
+.main_buttom{
+   margin: 10px;
+   width: 70px;
+   margin-top: 130px;
+   height: 35px;
+   border-radius: 10px;
+   background-color: rgba(36, 88, 5, 0.205);
+   border: none;
 }
