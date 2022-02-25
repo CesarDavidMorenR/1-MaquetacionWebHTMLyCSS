@@ -77,6 +77,47 @@ ul{
      
 }
 
+/* El Grids */
 
+.grid{
+   display: grid;
+   width: 100%;
+   margin-top: 50px;
+   gap: 10px 10px;
+   grid-template-columns: repeat(10,10fr);
+   grid-template-rows: repeat(10, 10fr)
+   grid-template-areas: 
+   'a a . b b'
+   'c c c c c c c'
+   'c c c c c c c '
+   'c c c c c c c'
+   'f f f f f'   
+   ;
+}
 
+.grid_pri{
+   grid-area: a;
+   background-color: aliceblue;
+}
+
+.grid_gro{
+   grid-area:b;
+   background-color:aqua ;
+}
+
+.grid_tea_left{
+   grid-area: c;
+}
+
+.grid_trs{
+   grid-area: d;
+}
+
+.grid_tea_right{
+   grid-area: e;
+}
+
+.grid_trsd{
+   grid-area:f;
+}
    
