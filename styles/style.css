@@ -4,7 +4,35 @@
    box-sizing: border-box;
 }
 
+
 body{
    height: 100vh;
    width: 100%;
+}
+
+/* Cabecera */
+
+header {
+   display: flex;
+   justify-content: flex-end;
+   background-color: rgba(36, 88, 5, 0.205);
+   padding: 15px;
+   
+}
+
+.header_list li{
+   list-style: none;
+   display: inline;
+   margin: 10px;
+}
+
+/* Logo y Menu de botones */
+
+.secmain{
+   display: flex;
+   justify-content: space-between;
+}
+
+.main_logo{
+   /* padding: 25px 0px 0px 25px; */
 }
