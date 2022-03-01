@@ -10,6 +10,7 @@ body{
    max-width: 600px;
    margin: auto;
    background-color: rgb(87, 82, 82);
+   font-size: 16px;
 }
 
 /* Cabecera */
@@ -86,37 +87,43 @@ ul{
    display: grid;
    /* width: 100%; */
    margin-top: 50px;
-   /* gap: 10px 10px; */
    grid-template-columns: repeat(10,10%);
+   row-gap: 10px;
    grid-auto-rows: minmax(auto,auto);
    grid-template-areas:
-   '. . . . . . . . . .'
-   'a a a a a b b b b b'
-   'c c c c c d d d d d'
-   'f f f f f f f f f f';
-
+      '. . . . . . . . . .'
+      'a a a a a b b b b b' 
+      'c c c c c d d d d d'
+      'f f f f f g g g g g';
 }
 
 .grid_ClasePrivada{
    grid-area: a;
    background-color: aliceblue;
+   width: 95%;
+   min-height: 220px;
 }
 
 .grid_ClaseGrupo{
    grid-area:b;
    background-color:aqua ;
-}
+   max-height: 220px;
+   }
 
 .grid_tealeft{
    grid-area:c;
-
 }
 
 .grid_trs{
    grid-area: d;
+   background-color: white;
 }
 
-.grid_trsd{
+.grid_trs_right{
    grid-area:f;
+   background-color: white;
 }
-   
+
+.grid_tearight{
+   grid-area: g;
+}
