@@ -19,7 +19,7 @@ header {
    display: flex;
    justify-content: flex-end;
    background-color: #8faa80;
-   padding: 15px;
+   padding: 0.9375em;
    
 }
 
@@ -130,4 +130,20 @@ ul{
 
 .grid_tearight{
    grid-area: g;
+}
+
+.preguntas_tipicas{
+   background-color: #8faa80;
+   text-align: center;
+   height: 13.75em;
+   padding-top: 30px;
+}
+
+.preguntas_tipicas_titulo{
+   margin-bottom: 20px;
+   font-size: 20px;
+}
+
+.preguntas_tipicas_parrafo{
+   margin-bottom: 30px;
 }
