@@ -86,7 +86,7 @@ ul{
 .grid{
    display: grid;
    /* width: 100%; */
-   margin-top: 50px;
+   margin-top: 20px;
    grid-template-columns: repeat(10,10%);
    row-gap: 10px;
    grid-auto-rows: minmax(auto,auto);
@@ -94,34 +94,38 @@ ul{
       '. . . . . . . . . .'
       'a a a a a b b b b b' 
       'c c c c c d d d d d'
-      'f f f f f g g g g g';
+      'f f f f f g g g g g'
+      '. . . . . . . . . .';
 }
 
 .grid_ClasePrivada{
    grid-area: a;
    background-color: aliceblue;
    width: 95%;
-   min-height: 220px;
+   height: 13.75em;
 }
 
 .grid_ClaseGrupo{
    grid-area:b;
    background-color:aqua ;
-   max-height: 220px;
-   }
+   height: 13.75em;
+      }
 
 .grid_tealeft{
    grid-area:c;
+   
 }
 
 .grid_trs{
    grid-area: d;
    background-color: white;
+   height: 13.75em;
 }
 
 .grid_trs_right{
    grid-area:f;
    background-color: white;
+   height: 13.75em;
 }
 
 .grid_tearight{
