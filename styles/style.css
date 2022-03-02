@@ -12,7 +12,7 @@ body{
    margin: auto;
    background-color: rgb(87, 82, 82);
    font-size: 16px;
-   font-family:'Poppons', sans-serif;
+   font-family:'Poppins', sans-serif;
 }
 
 /* Cabecera */
@@ -21,7 +21,7 @@ header {
    display: flex;
    justify-content: flex-end;
    background-color: #8faa80;
-   padding: 0.9375em;
+   padding: 0.2375em;
    
 }
 
@@ -111,25 +111,27 @@ header {
 } */
 
 .chica_figure{
-   background-color: rgb(255, 130, 81);
+   background-color: rgb(209, 129, 98);;
 }
 
 .miweb{
-   background-color: rgb(255, 130, 81);
+   background-color: rgb(209, 129, 98);
    height: 12.5em; 
    padding-left: 20px;
 }
 
 .miwebtitu{
-   text-shadow: 2px 7px 5px black;
-   font-size: 80px;
+   text-shadow: 2px 7px 11px black;
+   font-size: 70px;
    color: rgb(219, 219, 219);
    margin-bottom: 10px;
+   font-weight: bold;
 }
 
 .miwebparra{
    color: rgb(238, 238, 238);
-   font-size: 25px;
+   font-size: 20px;
+   font-weight: normal;
 }
 
 /* El Grids */
