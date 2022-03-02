@@ -367,6 +367,7 @@ padding-left: 20px;
 
 h2{
    margin-bottom: 20px;
+   font-weight: normal;
 }
 
 u {
@@ -392,6 +393,11 @@ footer ul{
 }
 
 footer li{
-   padding: 15px;
+   padding:3px;
    list-style: none;
+   color: rgb(221, 212, 212);
+}
+
+footer li:hover{
+   color:white;
 }
