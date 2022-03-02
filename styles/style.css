@@ -158,11 +158,37 @@ header {
    height: 13.75em;
 }
 
+.grid_ClasePrivada:hover button{
+   background-color: orange;
+   }
+
+.grid_ClasePrivada button {
+   width: 6.375em;
+   height: 2.5875em;
+   border-radius: 0.625em;
+   background-color: rgba(36, 88, 5, 0.205);
+   border: none;
+   color: white;
+}
+
 .grid_ClaseGrupo{
    grid-area:b;
    background-color:aqua ;
    height: 13.75em;
       }
+
+.grid_ClaseGrupo:hover button{
+   background-color: orange;
+   }
+
+.grid_ClaseGrupo button {
+   width: 6.375em;
+   height: 2.5875em;
+   border-radius: 0.625em;
+   background-color: rgba(36, 88, 5, 0.205);
+   border: none;
+   color: white;
+}
 
 .grid_tealeft{
    grid-area:c;
@@ -175,15 +201,44 @@ header {
    height: 13.75em;
 }
 
+.grid_trs:hover button{
+   background-color: orange;
+   }
+
+.grid_trs button {
+   width: 6.375em;
+   height: 2.5875em;
+   border-radius: 0.625em;
+   background-color: rgba(36, 88, 5, 0.205);
+   border: none;
+   color: white;
+}
+
 .grid_trs_right{
    grid-area:f;
    background-color: white;
    height: 13.75em;
 }
 
+.grid_trs_right:hover button{
+background-color: orange;
+}
+
+.grid_trs_right button {
+   width: 6.375em;
+   height: 2.5875em;
+   border-radius: 0.625em;
+   background-color: rgba(36, 88, 5, 0.205);
+   border: none;
+   color: white;
+}
+
 .grid_tearight{
    grid-area: g;
 }
+
+
+/* SECCION DDE PREGUNTAS TIPICAS */
 
 .preguntas_tipicas{
    background-color: #8faa80;
