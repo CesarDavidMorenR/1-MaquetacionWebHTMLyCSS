@@ -319,17 +319,58 @@ h4{
 
 .mas_posts figure{
    /* margin-left: 150px; */
+margin-top: 80px;
+margin-right: 30px;
+padding-left: 20px;
+}
 
+.mas_posts section{
+   margin-left: 30px;
+   margin-top: 30px;
+   margin-bottom: 30px;
 }
 
 .mas_posts p{
+   margin-bottom: 20px;
    
+}
+
+.mas_posts a:hover{
+   color:orange;
 }
 
 .mas_posts_segundo{
    background-color: white;
    margin-top: 1.87em;
    display: flex;
+}
+
+.mas_posts_segundo p{
+   margin-bottom: 20px;
+}
+
+.mas_posts_segundo section{
+   margin-left: 30px;
+   margin-bottom: 30px;
+   margin-top: 30px;
+}
+
+.mas_posts_segundo figure{
+   margin-top: 80px;
+   padding-left: 20px;
+   margin-right: 30px;
+}
+
+.mas_posts_segundo a:hover{
+   color:orange;
+}
+
+h2{
+   margin-bottom: 20px;
+}
+
+u {
+   text-decoration:2px underline dotted;
 }
 
 /* EL PIE DE LA PAGINA */
