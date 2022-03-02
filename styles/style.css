@@ -68,6 +68,10 @@ header {
    color: white;
 }
 
+.main_buttom:hover{
+   background-color:orange;
+}
+
 .Porro{
    margin-right: 2.8125em;
 }
@@ -106,14 +110,25 @@ header {
 } */
 
 .chica_figure{
-   background-color: lightsalmon;
+   background-color: rgb(255, 130, 81);
 }
 
 .miweb{
-   background-color: lightsalmon;
-   color: white;
-   height: 12.5em;
-     
+   background-color: rgb(255, 130, 81);
+   height: 12.5em; 
+   padding-left: 20px;
+}
+
+.miwebtitu{
+   text-shadow: 2px 7px 5px black;
+   font-size: 80px;
+   color: rgb(219, 219, 219);
+   margin-bottom: 10px;
+}
+
+.miwebparra{
+   color: rgb(238, 238, 238);
+   font-size: 25px;
 }
 
 /* El Grids */
