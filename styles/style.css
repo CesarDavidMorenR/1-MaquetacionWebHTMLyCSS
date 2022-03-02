@@ -275,20 +275,40 @@ h4{
 /* SECCION DDE PREGUNTAS TIPICAS */
 
 .preguntas_tipicas{
-   background-color: #8faa80;
+   background-color: #b5c5ac;
    text-align: center;
    height: 13.75em;
-   padding-top: 1.875em;
+   padding-top: 1.175em;
+   color: #759465;
 }
 
 .preguntas_tipicas_titulo{
-   margin-bottom: 1.25em;
-   font-size: 1.25em;
+   margin-bottom: 0.85em;
+   font-size: 1.5em;
+   font-weight: bold;
+   text-shadow: 2px 7px 12px rgb(126, 126, 126);
 }
 
 .preguntas_tipicas_parrafo{
-   margin-bottom: 1.875em;
+   margin-bottom: 1.775em;
+   font-size: 0.75em;
 }
+
+.preguntas_tipicas button {
+   width: 12.375em;
+   height: 2.5875em;
+   border-radius: 0.625em;
+   background-color: rgba(44, 68, 57, 0.774);
+   border: none;
+   color: white;
+}
+
+.preguntas_tipicas button:hover{
+   background-color: #759465;
+}
+
+
+/* POST FINALES */
 
 .mas_posts{
    background-color: white;
