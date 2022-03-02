@@ -313,21 +313,26 @@ h4{
 .mas_posts{
    background-color: white;
    margin-top: 1.875em;
-   /* display: flex; */ 
+   display: flex; 
+   
 }
 
 .mas_posts figure{
-   margin-left: 350px;
+   /* margin-left: 150px; */
+
 }
 
 .mas_posts p{
-   width: 300px;
+   
 }
 
 .mas_posts_segundo{
    background-color: white;
    margin-top: 1.87em;
+   display: flex;
 }
+
+/* EL PIE DE LA PAGINA */
 
 footer{
    text-align: center;
