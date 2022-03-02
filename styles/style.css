@@ -41,10 +41,13 @@ header {
    justify-content: space-between;
    flex-wrap: wrap;
    background-color: white;
+   height: 170px;
 }
 
 .main_logo{
-   padding: 1.5625em ;
+   /* padding: 1.5625em; */
+   margin-top: 40px;
+   margin-left: 30px;
 }
 
 /* .buttoms{
@@ -54,14 +57,19 @@ header {
    
 
 .main_buttom{
-   margin: 0.625em;
-   width: 4.375em;
+   /* margin: 0.625em; */
+
+   width: 6.375em;
    margin-top: 8.125em;
-   height: 2.1875em;
+   height: 2.5875em;
    border-radius: 0.625em;
    background-color: rgba(36, 88, 5, 0.205);
    border: none;
    color: white;
+}
+
+.Porro{
+   margin-right: 2.8125em;
 }
 
 .lifacehead{
